@@ -22,29 +22,18 @@ The first number in the sequence starts at 1 (not 0).
 public class E_044_Fabonacci {
 
     public static void main(String[] args) {
-
-           print(8);  // 1,1,2,3,5,8,13  = 21
+                    print_4(5);
+      //   System.out.println(print(5));
     }
 
-    static  void print(int num){//  print(6) +  print(4) = 10
+    static int print(int a){
+        if(a<2) return 1;
 
-        int a = 0;
-        int b = 1;
-        for(int x=0; x<num; x++){
-            System.out.print(a +" ");
-            a = a+b;
-            b = a-b;
-        }
+        return  print(a-1) + print(a-2);
     }
 
 
-    static int print2(int a){
-
-        return a < 2 ? 1 : print2(a-1) + print2(a-2);
-    }
-
-
-    static int print3(int a){
+    static int print_2(int a){     // 8
         int first = 1;
         int secnd = 1;
 
@@ -56,6 +45,33 @@ public class E_044_Fabonacci {
         if(a > 1)return secnd;
         else return 1;
     }
+
+
+    static  void print_3(int num){ //  0,1,1,2,3       <-- here number starts from  0
+
+        int a = 0;
+        int b = 1;
+        for(int x=0; x<num; x++){
+            System.out.print(a +" ");
+            a = a+b;
+            b = a-b;
+        }
+    }
+
+    static  void print_4(int num){ //  1,2,3,4,5           <-- here number start from  1
+
+        int a = 1;
+        int b = 1;
+        for(int x=0; x<num; x++){
+            System.out.print(a +" ");
+            a = a+b;
+            b = a-b;
+        }
+    }
+
+
+
+
 }
 
 

@@ -17,16 +17,16 @@ A prime number has no other factors except 1 and itself.
 If a number is odd it is not divisible by an even number.
 1 is not considered a prime number
  */
-public class E_069 {
+public class E_069_Find_Prime_number {
 
     public static void main(String[] args) {
 
-        System.out.println(print(6));
+        System.out.println(print(23));
     }
 
     static  boolean print(int num){
 
-        System.out.println(Math.sqrt(8));
+        System.out.println(Math.sqrt(23));
 
         if(num == 2) return  true;
 

@@ -20,7 +20,7 @@ dime:    10 cents / $0.10
 nickel:   5 cents / $0.05
 penny:    1 cent  / $0.01
  */
-public class E_011_Money_calculator {
+public class E_011_Money_calculator_mapToDouble {
 
     public static void main(String[] args) {
 

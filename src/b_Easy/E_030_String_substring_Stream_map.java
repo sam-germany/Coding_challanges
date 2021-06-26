@@ -14,7 +14,7 @@ Notes
 Don't change the order of the original array.
 Notice in the second example above, "MABELLE" is returned as "Mabelle".
  */
-public class E_030_String_substring_Stream {
+public class E_030_String_substring_Stream_map {
 
     public static void main(String[] args) {
 

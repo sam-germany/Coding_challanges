@@ -17,7 +17,7 @@ Notes
 You can assume numbers and punctuation symbols won't be included in test cases.
  You'll only have to deal with single word, alphabetic characters.
  */
-public class E_064_String_sort_Alphabetically {
+public class E_064_String_sort_Alphabetically_mapToObj {
 
     public static void main(String[] args) {
 
